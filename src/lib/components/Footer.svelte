@@ -4,11 +4,12 @@
       <!-- Logo Column -->
       <div class="col-span-2 md:col-span-1">
         <div class="flex items-center gap-2 mb-4">
-          <div class="w-6 h-6 bg-black rounded flex items-center justify-center text-white">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M20 6L9 17l-5-5"/>
+          <div class="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd" />
             </svg>
           </div>
+          <span class="font-bold text-sm">Delphi</span>
         </div>
       </div>
 
@@ -16,10 +17,10 @@
       <div>
         <h3 class="font-semibold text-gray-900 mb-4 text-sm">Product</h3>
         <ul class="space-y-3 text-sm text-gray-500">
-          <li><a href="/#start" class="hover:text-gray-900">Get Started</a></li>
-          <li><a href="/#features" class="hover:text-gray-900">Customer Feedback</a></li>
-          <li><a href="/#roadmap" class="hover:text-gray-900">Product Roadmap</a></li>
-          <li><a href="/#changelog" class="hover:text-gray-900">Product Changelog</a></li>
+          <li><a href="/#start" class="hover:text-gray-900">Create Clone</a></li>
+          <li><a href="/#features" class="hover:text-gray-900">Features</a></li>
+          <li><a href="/#voices" class="hover:text-gray-900">Voice Samples</a></li>
+          <li><a href="https://docs.delphi.ai" class="hover:text-gray-900">Documentation</a></li>
         </ul>
       </div>
 
@@ -27,12 +28,12 @@
       <div>
         <h3 class="font-semibold text-gray-900 mb-4 text-sm">Resources</h3>
         <ul class="space-y-3 text-sm text-gray-500">
-          <li><a href="/#help" class="hover:text-gray-900">Help</a></li>
-          <li><a href="/#sdks" class="hover:text-gray-900">SDKs</a></li>
+          <li><a href="/#help" class="hover:text-gray-900">Help Center</a></li>
+          <li><a href="/#library" class="hover:text-gray-900">Library of Minds</a></li>
           <li><a href="/#pricing" class="hover:text-gray-900">Pricing</a></li>
-          <li><a href="/#feedback" class="hover:text-gray-900">Feedback</a></li>
-          <li><a href="/#roadmap" class="hover:text-gray-900">Roadmap</a></li>
-          <li><a href="/#updates" class="hover:text-gray-900">Updates</a></li>
+          <li><a href="/#experts" class="hover:text-gray-900">Expert Directory</a></li>
+          <li><a href="/#press" class="hover:text-gray-900">Press Kit</a></li>
+          <li><a href="https://status.delphi.ai" class="hover:text-gray-900">Status</a></li>
         </ul>
       </div>
 
@@ -40,12 +41,11 @@
       <div>
         <h3 class="font-semibold text-gray-900 mb-4 text-sm">Company</h3>
         <ul class="space-y-3 text-sm text-gray-500">
+          <li><a href="/#about" class="hover:text-gray-900">About</a></li>
           <li><a href="/#blog" class="hover:text-gray-900">Blog</a></li>
           <li><a href="/#contact" class="hover:text-gray-900">Contact</a></li>
-          <li><a href="/#status" class="hover:text-gray-900">Status</a></li>
           <li><a href="/#privacy" class="hover:text-gray-900">Privacy</a></li>
           <li><a href="/#terms" class="hover:text-gray-900">Terms</a></li>
-          <li><a href="/#tools" class="hover:text-gray-900">Tools</a></li>
         </ul>
       </div>
 
@@ -53,21 +53,17 @@
       <div>
         <h3 class="font-semibold text-gray-900 mb-4 text-sm">Compare</h3>
         <ul class="space-y-3 text-sm text-gray-500">
-          <li><a href="/#canny" class="hover:text-gray-900">Canny Alternative</a></li>
-          <li><a href="/#uservoice" class="hover:text-gray-900">UserVoice Alternative</a></li>
-          <li><a href="/#nolt" class="hover:text-gray-900">Nolt Alternative</a></li>
-          <li><a href="/#aha" class="hover:text-gray-900">Aha! Alternative</a></li>
-          <li><a href="/#productboard" class="hover:text-gray-900">Productboard Alternative</a></li>
-          <li><a href="/#pendo" class="hover:text-gray-900">Pendo Alternative</a></li>
-          <li><a href="/#other" class="hover:text-gray-900">Other Alternatives</a></li>
+          <li><a href="/#personal-ai" class="hover:text-gray-900">vs Personal.ai</a></li>
+          <li><a href="/#coachvox" class="hover:text-gray-900">vs Coachvox AI</a></li>
+          <li><a href="/#alternatives" class="hover:text-gray-900">Other Alternatives</a></li>
         </ul>
       </div>
     </div>
 
     <div class="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-4">
-      <p class="text-xs text-gray-400">© 2025 UserJot. All rights reserved.</p>
-      <div class="text-gray-300">
-        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M6 18L18 6M6 6l12 12"/></svg>
+      <p class="text-xs text-gray-400">© 2025 Delphi. All rights reserved.</p>
+      <div class="flex items-center gap-4 text-xs text-gray-400">
+        <span>Your mind is your most precious asset</span>
       </div>
     </div>
   </div>
